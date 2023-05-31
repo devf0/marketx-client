@@ -1,0 +1,74 @@
+/* NAv BAr */
+.navbar-nav a{
+  font-size: 1rem;
+}
+.carsousel-item img{
+  height: 550px;
+}
+
+.cartProductContainer{
+  border: 1px solid #000;
+  margin: 5px;
+}
+.cartProductContainer img{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  background-size: contain;
+}
+
+.total{
+  font-size: 3rem;
+}
+.statusContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  position: sticky;
+  top: 0;
+  height: 300px;
+}
+
+.navbar-brand {
+  color: #ee4d2d !important;
+}
+
+.navbar-wide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px; */
+  width: 100%;
+}
+
+.navbar-left {
+  display: flex;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 10px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+h5.card-title {
+  font-size: 0.875rem;
+}
+
+.card-text {
+  color: #ee4d2d;
+}
+
+.btn-outline-dark:hover {
+  color: white;
+  background-color: #ee4d2d !important;
+}
